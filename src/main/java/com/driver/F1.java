@@ -23,8 +23,8 @@ public class F1 extends Car {
 
         if(newSpeed == 0) {
             this.changeGear(1);
-            stop();
             setCurrentGear(1);
+            stop();
         }
         else if(newSpeed>=1 && newSpeed<=50) {
             this.changeGear(1);
