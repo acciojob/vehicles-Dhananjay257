@@ -30,7 +30,7 @@ public class F1 extends Car {
             changeGear(1);
             //setCurrentGear(1);
         }
-        else if(&& newSpeed<=100) {
+        else if(newSpeed<=100) {
             changeGear(2);
             //setCurrentGear(2);
         }
